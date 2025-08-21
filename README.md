@@ -1,84 +1,31 @@
-# AI Recruiting System
+# AI Recruiting Agent 
 
-A streamlined Ruby-based AI recruiting system powered by RubyLLM and OpenRouter for intelligent resume analysis and candidate screening.
+A practical real-world example of automating contract processing with AI using Ruby.
 
-## 🚀 Quick Start
+This repository contains a real world example of how to use RubyLLM to extract information from contracts, enrich it with generated data, and export it to a CSV file.
 
-1. **Install dependencies:**
-   ```bash
-   bundle install
-   ```
+## Installation
 
-2. **Configure API keys:**
-   ```bash
-   cp env.example .env
-   # Add your OPENROUTER_API_KEY
-   ```
+Clone the repo and run `bundle install` to install dependencies.
 
-3. **Use programmatically:**
-   ```ruby
-   require_relative 'lib/ai_recruiting_system'
-   
-   app = AIRecruitingSystem.new
-   result = app.parse_resume('resumes/candidate.txt')
-   screening = app.screen_candidate_basic(result, job_requirements)
-   ```
-
-## ✨ Features
-
-- **📄 Resume Analysis** - Parse .txt resume files with AI
-- **🔍 Candidate Screening** - AI-powered screening against job requirements  
-- **🎯 Job Matching** - Intelligent candidate-to-job matching with scores
-- **🤖 RubyLLM Integration** - Advanced AI agents for comprehensive analysis
-- **💾 Data Persistence** - Save all results as JSON files
-- **🚀 Programmatic API** - Clean, simple methods for integration
-
-## 📋 Programmatic Usage
-
-```ruby
-# Initialize the system
-app = AIRecruitingSystem.new
-
-# Parse a resume
-resume_result = app.parse_resume('resumes/candidate.txt')
-
-# Screen against job requirements
-screening = app.screen_candidate_basic(resume_result, job_requirements)
-
-# Generate interview questions
-questions = app.generate_interview_questions(job_description, resume_result)
-
-# Save results
-app.save_results(data, "analysis_results")
+```bash
+bundle install
 ```
 
-## 🏗️ Architecture
+## Usage
 
-```
-lib/
-├── services/        # Resume parsing and candidate screening
-├── clients/         # AI API client (OpenRouter optimized)
-└── ai_recruiting_system.rb    # Main application class
-```
+These examples use OpenRouter API for LLM calls. You will need to set up an OpenRouter API key by creating a `.env` file using the `.env.example` as a template.
 
-## 🤖 AI Integration
+If you would like to use a different LLM provider, you can modify the configuration in the `main.rb` file to use a different LLM provider along with the model of your choice as well. In this example, the `meta-llama/llama-3.2-3b-instruct` model is used.
 
-- **OpenRouter API** - Claude models for superior analysis
-- **RubyLLM Tools** - RecruitingAnalyzer and InterviewGenerator
-- **Optimized Prompts** - HR specialist system messages
-- **Enhanced Scoring** - Multi-factor candidate evaluation
+The LLM calls are made using the [RubyLLM](https://github.com/crmne/ruby_llm) gem. To see the complete list of models, you can go [here](https://rubyllm.com/guides/available-models).
 
-## 📄 File Support
+In the `main.rb` file, you will see a step by step process of extracting information from contracts and exporting it to a CSV file. Simply run with `ruby main.rb` to see the results.
 
-- **Supported**: .txt files only (reliable across all systems)
-- **Note**: Convert PDF/DOCX resumes to .txt format for processing
+## Contributing
 
-## ⚙️ Requirements
+Pull requests are always welcome.
 
-- Ruby 3.0+
-- OpenRouter API key
-- Dependencies: `ruby_llm`, `httparty`, `dotenv`, `json`
+## License
 
-## 🎯 Perfect For
-
-Developers and HR teams who need a clean, programmatic AI recruiting system - no CLI, just powerful methods for integration!
+[MIT](https://choosealicense.com/licenses/mit/)
