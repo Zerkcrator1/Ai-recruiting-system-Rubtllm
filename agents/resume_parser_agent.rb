@@ -8,6 +8,5 @@ class ResumeParserAgent < RubyLLM::Tool
       file: resume,
       content: response.content
     }
-    
   end
 end
