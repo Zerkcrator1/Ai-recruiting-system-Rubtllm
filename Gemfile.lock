@@ -38,10 +38,12 @@ GEM
       faraday-retry (>= 1)
       marcel (~> 1.0)
       zeitwerk (~> 2)
+    ruby_llm-schema (0.1.6)
     uri (1.0.3)
     zeitwerk (2.7.3)
 
 PLATFORMS
+  arm64-darwin-23
   x86-mingw32
 
 DEPENDENCIES
@@ -49,6 +51,7 @@ DEPENDENCIES
   httparty (~> 0.21)
   json (~> 2.6)
   ruby_llm (~> 1.6)
+  ruby_llm-schema
 
 RUBY VERSION
    ruby 3.3.9p170
