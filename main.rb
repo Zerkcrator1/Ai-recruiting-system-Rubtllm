@@ -11,7 +11,7 @@ require_relative 'agents/email_writing_agent'
 
 # STEP 1: CONFIGURE RUBYLLM
 RubyLLM.configure do |config|
-  config.openrouter_api_key = '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'
+  config.openrouter_api_key = ENV['OPENROUTER_API_KEY']
   config.default_model = 'google/gemini-2.5-flash'
 end
 
@@ -28,4 +28,5 @@ email = RubyLLM.chat.with_tools(ResumeParserAgent, EmailSchema).ask("Extract the
 message = coordinator.ask("If the candidate is a good fit for the job, send an email to the candidate with the job description and the candidate's resume: #{job_description} #{resume}")
 
 puts result.content
+
 puts email.content
