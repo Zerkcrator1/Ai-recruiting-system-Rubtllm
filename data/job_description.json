@@ -1,0 +1,59 @@
+{
+  "job_title": "Senior Ruby Developer",
+  "company": "Technology Company",
+  "location": "Remote/Hybrid",
+  "employment_type": "Full-time",
+  "experience_level": "Senior",
+  "description": "We are seeking an experienced Ruby developer to join our growing engineering team. The ideal candidate will have strong experience with Ruby on Rails, web development, and modern software practices.",
+  "requirements": [
+    "5+ years of professional Ruby development experience",
+    "Strong experience with Ruby on Rails framework",
+    "Proficiency in JavaScript, HTML, CSS",
+    "Experience with SQL databases (PostgreSQL preferred)",
+    "Knowledge of Git version control",
+    "Experience with Agile/Scrum methodologies",
+    "Strong problem-solving and communication skills",
+    "Bachelor's degree in Computer Science or related field (preferred)"
+  ],
+  "nice_to_have": [
+    "Experience with React or Vue.js",
+    "AWS or cloud platform experience",
+    "Docker and containerization knowledge",
+    "Experience with CI/CD pipelines",
+    "Knowledge of testing frameworks (RSpec, Capybara)",
+    "Previous startup or fast-paced environment experience"
+  ],
+  "responsibilities": [
+    "Develop and maintain Ruby on Rails applications",
+    "Collaborate with cross-functional teams",
+    "Write clean, maintainable, and efficient code",
+    "Participate in code reviews and technical discussions",
+    "Contribute to system architecture decisions",
+    "Mentor junior developers"
+  ],
+  "benefits": [
+    "Competitive salary",
+    "Health benefits",
+    "Growth opportunities",
+    "Dynamic technology environment"
+  ],
+  "technologies": [
+    "Ruby",
+    "Ruby on Rails",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "PostgreSQL",
+    "Git",
+    "React",
+    "Vue.js",
+    "AWS",
+    "Docker",
+    "CI/CD",
+    "RSpec",
+    "Capybara"
+  ],
+  "salary_range": "Competitive",
+  "posted_date": "2024-01-01",
+  "application_deadline": "2024-12-31"
+}

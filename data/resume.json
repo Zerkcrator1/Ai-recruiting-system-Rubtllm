@@ -1,0 +1,135 @@
+{
+  "personal_info": {
+    "name": "John Smith",
+    "title": "Senior Ruby Developer",
+    "email": "john.smith@email.com",
+    "phone": "(555) 123-4567",
+    "location": "San Francisco, CA",
+    "linkedin": "linkedin.com/in/johnsmith",
+    "github": "github.com/johnsmith",
+    "portfolio": "johnsmith.dev"
+  },
+  "professional_summary": "Experienced full-stack developer with 8+ years of expertise in Ruby on Rails, JavaScript, and modern web technologies. Proven track record of leading development teams and delivering scalable applications for high-growth startups and enterprise clients. Passionate about clean code, test-driven development, and mentoring junior developers.",
+  "technical_skills": {
+    "programming_languages": ["Ruby", "JavaScript", "Python", "SQL"],
+    "frameworks": ["Ruby on Rails", "React", "Vue.js", "Node.js"],
+    "databases": ["PostgreSQL", "MySQL", "Redis", "MongoDB"],
+    "cloud_devops": ["AWS", "Docker", "Kubernetes", "Jenkins", "CI/CD"],
+    "tools": ["Git", "RSpec", "Capybara", "Jest", "Webpack"],
+    "methodologies": ["Agile", "Scrum", "TDD", "Code Reviews"]
+  },
+  "work_experience": [
+    {
+      "title": "Senior Ruby Developer",
+      "company": "TechCorp Inc",
+      "duration": "March 2021 - Present",
+      "years": 3,
+      "achievements": [
+        "Led a team of 5 developers in building a microservices architecture serving 1M+ users",
+        "Implemented automated testing pipeline reducing deployment time by 60%",
+        "Mentored 3 junior developers and conducted code reviews",
+        "Architected RESTful APIs and integrated third-party services",
+        "Improved application performance by 40% through database optimization"
+      ]
+    },
+    {
+      "title": "Ruby Developer",
+      "company": "StartupXYZ",
+      "duration": "June 2019 - February 2021",
+      "years": 1.8,
+      "achievements": [
+        "Developed customer-facing web applications using Ruby on Rails and React",
+        "Collaborated with product team to define technical requirements",
+        "Implemented payment processing integration with Stripe API",
+        "Built responsive front-end components and maintained 95% test coverage"
+      ]
+    },
+    {
+      "title": "Full-Stack Developer",
+      "company": "WebSolutions LLC",
+      "duration": "August 2016 - May 2019",
+      "years": 2.9,
+      "achievements": [
+        "Built e-commerce platforms for small and medium businesses",
+        "Developed custom CMS solutions using Ruby on Rails",
+        "Managed client relationships and technical project delivery",
+        "Implemented SEO optimization and performance monitoring"
+      ]
+    },
+    {
+      "title": "Junior Developer",
+      "company": "CodeFactory",
+      "duration": "January 2015 - July 2016",
+      "years": 1.6,
+      "achievements": [
+        "Maintained legacy Ruby applications and added new features",
+        "Fixed bugs and improved code quality through refactoring",
+        "Learned Ruby on Rails best practices and design patterns",
+        "Participated in daily standups and sprint planning"
+      ]
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Science in Computer Science",
+    "institution": "University of California, Berkeley",
+    "graduation_date": "May 2014",
+    "relevant_coursework": ["Data Structures", "Algorithms", "Database Systems", "Software Engineering"]
+  },
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect - Associate",
+      "year": 2022
+    },
+    {
+      "name": "Certified ScrumMaster (CSM) - Scrum Alliance",
+      "year": 2021
+    },
+    {
+      "name": "Ruby Association Certified Ruby Programmer Silver",
+      "year": 2018
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Native"
+    },
+    {
+      "language": "Spanish",
+      "proficiency": "Conversational"
+    },
+    {
+      "language": "French",
+      "proficiency": "Basic"
+    }
+  ],
+  "achievements": [
+    "Led migration from monolithic to microservices architecture",
+    "Reduced customer onboarding time by 50% through automation",
+    "Contributed to open-source projects with 500+ GitHub stars",
+    "Speaker at RubyConf 2022 - \"Scaling Rails Applications\""
+  ],
+  "projects": [
+    {
+      "name": "Personal Finance Tracker",
+      "description": "Built with Ruby on Rails and React",
+      "features": [
+        "Developed budgeting and expense tracking application",
+        "Implemented secure authentication and data visualization",
+        "Deployed on Heroku with CI/CD pipeline"
+      ]
+    }
+  ],
+  "interests": [
+    "Open source contributions",
+    "Technology mentoring",
+    "Rock climbing",
+    "Photography"
+  ],
+  "total_years_experience": 8.3,
+  "current_role": "Senior Ruby Developer",
+  "availability": "2 weeks notice",
+  "salary_expectations": "$140,000 - $160,000",
+  "willing_to_relocate": true,
+  "remote_work_preference": "Hybrid"
+}
